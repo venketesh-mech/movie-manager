@@ -1,0 +1,39 @@
+{"movies":[{
+		"Title": "Virumandi",
+		"Year": "2004",
+		"Rated": "Not Rated",
+		"Released": "14 Jan 2021",
+		"Runtime": "175 min",
+		"Genre": "Action, Drama, Thriller",
+		"Director": "Kamal Haasan",
+		"Writer": "H. Banerjee, Kamal Haasan",
+		"Actors": "Kamal Haasan, Abhirami, Pasupathy",
+		"Plot": "A temperamental farmer gets embroiled in a bloody clan feud in a southern Tamil Nadu village.",
+		"Language": "Tamil",
+		"Country": "India",
+		"Awards": "1 win",
+		"Poster": "https://m.media-amazon.com/images/M/MV5BODVkMDliZjQtZmI3Ni00NGJlLThjY2MtYmY5M2I1ODU5ZGE0XkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+		"Ratings": [{
+				"Source": "Internet Movie Database",
+				"Value": "8.3/10"
+			}
+		],
+		"Metascore": "N/A",
+		"imdbRating": "8.3",
+		"imdbVotes": "5,338",
+		"imdbID": "tt0364647",
+		"Type": "movie",
+		"DVD": "04 Aug 2004",
+		"BoxOffice": "N/A",
+		"Production": "Raajkamal Films International",
+		"Website": "N/A",
+		"Response": "True"
+	},
+	{"Title":"Bhoomi","Year":"2021","Rated":"TV-PG","Released":"14 Jan 2021","Runtime":"128 min","Genre":"Action, Drama","Director":"Lakshman","Writer":"Lakshman","Actors":"Jayam Ravi, Nidhhi Agerwal, Rnr Mahonar","Plot":"Bhoominathan is an astronaut at NASA who has to resolve an unfinished business in his village before taking off to Mars.","Language":"Tamil","Country":"India","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BYWZhMmI3NmQtYjM1MS00NTE4LTkzMmYtYjEyMzQ1MzljYjdlXkEyXkFqcGdeQXVyMTI3NTQ2Nzc3._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.0/10"}],"Metascore":"N/A","imdbRating":"5.0","imdbVotes":"3,049","imdbID":"tt10893170","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+	{"Title":"Vishwaroopam","Year":"2013","Rated":"Not Rated","Released":"25 Jan 2013","Runtime":"148 min","Genre":"Action, Thriller","Director":"Kamal Haasan","Writer":"H. Banerjee, Kamal Haasan, Atul Tiwari","Actors":"Pooja Kumar, Miles Anderson, Kamal Haasan","Plot":"When a classical dancer's suspecting wife sets an investigator behind him, a series of violent events are triggered, revealing his real identity and connection to a darker world.","Language":"Tamil, English, Hindi","Country":"India, United States","Awards":"8 wins & 11 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BZmRhNzhkOTMtNDRmOC00MTE5LTlmYzQtNTEzMDJmMmU1ZGMwXkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"}],"Metascore":"N/A","imdbRating":"8.1","imdbVotes":"39,282","imdbID":"tt2199711","Type":"movie","DVD":"22 May 2017","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+	{"Title":"Papanasam","Year":"2015","Rated":"Not Rated","Released":"03 Jul 2015","Runtime":"179 min","Genre":"Drama, Thriller","Director":"Jeethu Joseph","Writer":"Jayamohan, Jeethu Joseph, Suka","Actors":"Kamal Haasan, Gautami, Nivetha Thomas","Plot":"Desperate measures are taken by a man who tries to save his family from the dark side of the law after they commit an unexpected crime.","Language":"Tamil","Country":"India","Awards":"7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BYzJkMDlhZmItZTIxNC00NmQ5LTg4ZTEtZWI2MDQ1N2E3YWExXkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"}],"Metascore":"N/A","imdbRating":"8.4","imdbVotes":"6,722","imdbID":"tt4429128","Type":"movie","DVD":"19 Nov 2015","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+	{"Title":"Varuthapadatha Valibar Sangam","Year":"2013","Rated":"N/A","Released":"06 Sep 2013","Runtime":"160 min","Genre":"Comedy, Romance","Director":"Ponram","Writer":"Ponram, M. Rajesh","Actors":"Sivakarthikeyan, Sathyaraj, Sri Divya","Plot":"An aimless youth falls for a girl with a trigger-happy father.","Language":"Tamil","Country":"India","Awards":"3 wins & 5 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDM5NzllOTAtNmEwYS00NDI3LTkwYjgtZTk2MWIzYTY1MjUzXkEyXkFqcGdeQXVyOTA0NTIzNzU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.8/10"}],"Metascore":"N/A","imdbRating":"6.8","imdbVotes":"1,620","imdbID":"tt3215258","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"AIM Distribution","Website":"N/A","Response":"True"},
+	{"Title":"Thuppakki","Year":"2012","Rated":"Not Rated","Released":"13 Nov 2012","Runtime":"165 min","Genre":"Action, Thriller","Director":"A.R. Murugadoss","Writer":"A.R. Murugadoss","Actors":"Joseph Vijay, Kajal Aggarwal, Vidyut Jammwal","Plot":"An army captain is on a mission to track down and destroy a terrorist gang and deactivate the sleeper cells under its command.","Language":"Tamil","Country":"India","Awards":"12 wins & 16 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BZjQxYjVkYzQtMmEzNy00MzM1LWE4OTUtZTc0NTdkMjBiOGZiXkEyXkFqcGdeQXVyODE0NjUxNzY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"}],"Metascore":"N/A","imdbRating":"8.1","imdbVotes":"31,331","imdbID":"tt2187153","Type":"movie","DVD":"07 Mar 2019","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+	{"Title":"Annamalai","Year":"1992","Rated":"Not Rated","Released":"27 Jun 1992","Runtime":"164 min","Genre":"Action, Drama","Director":"Suresh Krishna","Writer":"Suresh Krishna (screenplay), Shanmuga Sundaram (dialogue)","Actors":"Rajinikanth, Sarath Babu, Kushboo, Radha Ravi","Plot":"A class-divided friendship goes through highs and lows through several decades.","Language":"Hindi, Tamil","Country":"India","Awards":"1 win.","Poster":"https://m.media-amazon.com/images/M/MV5BMDYxMDExNzYtNmI5YS00Yzk1LWI1ODEtMDZlM2NkZjA1NjVmXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.7/10"}],"Metascore":"N/A","imdbRating":"7.7","imdbVotes":"1,774","imdbID":"tt0139859","Type":"movie","DVD":"04 Jan 2019","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+	{"Title":"Thittam Irandu","Year":"2021","Rated":"N/A","Released":"30 Jul 2021","Runtime":"120 min","Genre":"Drama","Director":"Vignesh Karthick","Writer":"N/A","Actors":"Gokul Anand, Pavel Navageethan, Aishwarya Rajesh","Plot":"A cop starts investigating the mysterious disappearance of her childhood friend. Can she handle the revelation that lies at the end of her inquiry?","Language":"Tamil","Country":"India","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BMGNiZWUyYTEtODdiNi00YWMzLThiOTQtNzkxOGM0ZTg4YzhhXkEyXkFqcGdeQXVyMzYxOTQ3MDg@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.2/10"}],"Metascore":"N/A","imdbRating":"7.2","imdbVotes":"1,767","imdbID":"tt12299714","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"}
+]}

@@ -1,0 +1,105 @@
+html {
+    --tmdbLightBlue: 1, 180, 228;
+}
+
+#DynamicDataTest {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+#header {
+    display: flex;
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+#Logo {
+    width: 300px;
+    height: 30px;
+    padding: 0px 15px;
+    font-family: 'Bungee', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#Search {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    padding: 12px 0px 0px 200px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.Left-Menu {
+    width: 300px;
+    height: 600px;
+    float: left;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+}
+
+#Movie-Grid {
+    width: 1000px;
+    height: auto;
+    float: left;
+}
+
+.MovieCard {
+    width: 180px;
+    height: 300px;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    float: left;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.Mov-Img-Container {
+    overflow: hidden;
+}
+
+.Movie-Img {
+    width: 180px;
+    height: 235px;
+    overflow: hidden;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.Movie-Name {
+    height: 20px;
+    font-weight: 700;
+    color: #000;
+    /*font-family: 'Alfa Slab One', cursive;
+    -webkit-font-smoothing: antialiased;*/
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.Movie-Name:hover {
+    color: rgba(var(--tmdbLightBlue), 1);
+}
+
+.MovieCard:hover .Movie-Img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    overflow: hidden;
+    color: dodgerblue;
+}
+
+.Movie-Year {
+    height: 20px;
+    text-align: center;
+    padding: 5px 0px;
+    font-family: 'Julius Sans One', sans-serif;
+}

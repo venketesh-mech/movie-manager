@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Movie Manager - Hobby Project</title>
+    <link rel="stylesheet" href="CSS/MMStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allura&family=Bungee&family=Julius+Sans+One&family=Saira+Extra+Condensed:wght@500&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="Movies.json"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="LoadJSON.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="Logo">
+            Movie Manager
+        </div>
+        <div id="Search">
+            <input id="input" type="text" size="30" /><button onclick="search()">Search</button>
+        </div>
+    </div>
+    <div class="Left-Menu">
+
+    </div>
+    <div id="Movie-Grid">
+        <div class="MovieCard">
+            <div class="Mov-Img-Container">
+                <div class="Movie-Img">
+                    <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3TgcTDUV2x28E0FEfdprW2cCKnb.jpg" title="Virumandi" width="180px">
+                </div>
+            </div>
+            <div class="Movie-Name">Virumandi</div>
+            <div class="Movie-Year">2004</div>
+        </div>
+
+
+    </div>
+
+    <!--<video>
+        <source src="E:/Movies/Kaithi.mp4" type="video/mp4" /> -->
+    <!-- some other alternative sources -->
+    <!--<source src="E:/Movies/Kaithi.ogv" type="video/ogv" />
+    </video>-->
+
+
+
+</body>
+<script language="javascript">
+    const movieslist = ["Virumandi", "Bhoomi", "Vishwaroopam", "Kaithi"];
+
+    var text = "";
+    movieslist.forEach(myFunction);
+
+    function myFunction(item, index) {
+        /*text += index + ": " + item + "<br>"; */
+        text += '<div class=\"MovieCard\"><div class=\"Mov-Img-Container\"><div class=\"Movie-Img\"><img src = \"Movies/' + item + '.jpg\" title=' + item + ' width=\"180px\"  ></div></div></div>'
+
+    }
+    //document.getElementById("Movie-Grid").innerHTML = text;
+
+    /*fetch("https://www.omdbapi.com/?t=virumandi&apikey=d29e4d05")
+        .then(response => response.json())
+        .then(json => console.log(json));
+
+    function loadJSON(callback) {
+        var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', 'https://www.omdbapi.com/?t=virumandi&apikey=d29e4d05', true); //https://api.themoviedb.org/3/search/movie?api_key=9142fc2b165aece5bc24f8fd540bc766&query=Virumandi
+        xobj.onreadystatechange = function() {
+            if (xobj.readyState == 4 && xobj.status == "200") {
+                callback(JSON.parse(xobj.responseText));
+            }
+        };
+        xobj.send(null);
+    }
+    loadJSON(function(json) {
+        console.log(json); // this will log out the json object
+    });
+
+    function loadFile() {
+        var input, file, fr;
+
+        if (typeof window.FileReader !== 'function') {
+            alert("The file API isn't supported on this browser yet.");
+            return;
+        }
+
+        input = document.getElementById('fileinput');
+        if (!input) {
+            alert("Um, couldn't find the fileinput element.");
+        } else if (!input.files) {
+            alert("This browser doesn't seem to support the `files` property of file inputs.");
+        } else if (!input.files[0]) {
+            alert("Please select a file before clicking 'Load'");
+        } else {
+            file = input.files[0];
+            fr = new FileReader();
+            fr.onload = receivedText;
+            fr.readAsText(file);
+        }
+
+        function receivedText(e) {
+            let lines = e.target.result;
+            alert(lines);
+            var newArr = JSON.parse(lines);
+        }
+
+
+    }*/
+    var local_data = data;
+
+    var movie_data = '';
+    //alert(local_data.length);
+    for (var i = 0; i < local_data.length; i++) {
+        movie_data = movie_data + '<div class=\"MovieCard\"><div class=\"Mov-Img-Container\"><div class=\"Movie-Img\"><img src = \" ' + local_data[i].Poster + '\" title=' + local_data[i].Title + ' width=\"180px\"  ></div></div><div class=\"Movie-Name\">' + local_data[i].Title + '</div><div class=\"Movie-Year\">' + local_data[i].Year + '</div></div>';
+    }
+
+    document.getElementById("Movie-Grid").innerHTML = movie_data;
+
+    function search() {
+        $("#Movie-Grid").html("");
+        let search = $("#input").val();
+        // filter the data
+        alert(search);
+        let filtered = $(movies).filter(function(i, b) {
+            alert(filtered);
+            return b.Title == search || b.Year == search
+        });
+
+        filtered.movies.forEach(function(b) {
+            alert(b.Title);
+            $("#Movie-Grid").append(`<div><h2>${b.Title}</h2><p>${b.Year}</p></div>`);
+        });
+    }
+</script>
+
+</html>
